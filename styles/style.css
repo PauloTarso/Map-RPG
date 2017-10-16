@@ -1,0 +1,14 @@
+#area-map{
+  margin-top: 1vh;
+  height: 85vh;
+  overflow: scroll;
+}
+
+
+#options-map{
+  height: 85vh;
+}
+
+#assets-map{
+  height: 85vh;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="library/materialize/css/materialize.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="styles/style.css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+      <!-- Conteúdo do dropdown "file" -->
+      <ul id="file" class="dropdown-content">
+        <li><a>New...</a></li>
+
+      </ul>
+
+      <!-- Navbar superior do projeto -->
+      <nav>
+        <div class="nav-wrapper">
+          <a class="brand-logo center"></a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+             <li><a class="dropdown-button"  data-activates="file">File<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <div class="row">
+        <!-- Aqui se encontra os menus de assets -->
+          <div class="col s3">
+              <div id="assets-map">
+                <ul class="collapsible" data-collapsible="expandable">
+                  <li>
+                    <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>Assets</div>
+                      <div class="collapsible-body">
+
+
+                      </div>
+                  </li>
+                </ul>
+            </div>
+          </div>
+
+          <!-- Aqui se encontra a parte onde sera montado o mapa -->
+            <div class="col s7">
+              <div id="area-map">
+
+
+              </div>
+
+            </div>
+
+          <!-- Aqui se encontra a parte direita com opções do mapa -->
+            <div class="col s2">
+              <div id="options-map">
+
+              </div>
+            </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script type="text/javascript" src="library/jquery/js/jquery-3.2.1.js"></script>
+      <script type="text/javascript" src="library/materialize/js/materialize.js"></script>
+    </body>
+  </html>
